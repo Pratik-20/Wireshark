@@ -1,0 +1,52 @@
+Wireshark is an open-source network protocol analyzer that allows you to capture and inspect data packets traveling across a network. It’s a powerful tool used for network troubleshooting, security analysis, and software testing. Let’s dive into the basics of Wireshark and how to use it:
+
+What Is Wireshark?
+
+Originally known as Ethereal, Wireshark displays data from hundreds of different protocols on all major network types.
+It can capture and analyze data packets in real-time or from trace files.
+Wireshark supports various capture file formats, including CAP and ERF.
+Integrated decryption tools allow viewing encrypted packets for common protocols like WEP and WPA/WPA21.
+
+-------------------------------------------------------------------------------------------------------
+
+Downloading and Installing Wireshark:
+
+You can download Wireshark for Windows, macOS, Linux, and other UNIX-like platforms from the Wireshark Foundation website.
+During installation on Windows, choose to install WinPcap or Npcap (if prompted) as they include libraries required for live data capture.
+Run Wireshark as an administrator on Windows 10 or grant admin privileges on macOS1.
+
+-------------------------------------------------------------------------------------------------------
+
+Capturing Data Packets:
+
+Launch Wireshark and select the network interface you want to monitor.
+To begin capturing packets:
+Go to the menu bar, select Capture, and choose one or more networks (hold Shift for multiple selections).
+In the Wireshark Capture Interfaces window, click Start.
+Alternatively, press Ctrl+E or double-click the network.
+To stop capturing, press Ctrl+E or click the red Stop button next to the shark fin icon1.
+
+-------------------------------------------------------------------------------------------------------
+
+Viewing and Analyzing Packet Contents:
+
+The captured data interface has three main sections:
+Packet List Pane: Displays a list of captured packets.
+Packet Details Pane: Shows detailed information about the selected packet.
+Packet Bytes Pane: Displays the raw bytes of the packet.
+You can filter packets based on criteria like source/destination IP, protocol, or port.
+Use the display filter to focus on specific traffic.
+Analyze packet contents to troubleshoot network issues or investigate security incidents1.
+Example Use Case: TCP Analysis
+
+-------------------------------------------------------------------------------------------------------
+
+
+Suppose you want to analyze TCP traffic:
+
+Launch Wireshark and go to Capture > Options > Interfaces.
+Choose a specific Ethernet adapter and note its IP address.
+Click Start to capture packets.
+Analyze the captured data to understand TCP behavior and identify any anomalies2.
+
+Remember that Wireshark provides a wealth of information, so explore its features and experiment with different filters to gain deeper insights into your network traffic! 🌐🔍
